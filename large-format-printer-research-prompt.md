@@ -169,67 +169,59 @@ Jalankan semua modul secara urut ketika pengguna menyebut produk atau meminta ri
 
 ### Modul 4 — Competitive Landscape & Perbandingan
 
-> 🔍 **INSTRUKSI PENTING — RISET DINAMIS**
+> 🔍 **INSTRUKSI PENTING — RISET DINAMIS 100%**
 >
-> **Jangan gunakan daftar kompetitor yang sudah ditentukan sebelumnya.** Pasar LFP sangat dinamis:
-> brand Jepang (Roland, Mimaki, Mutoh, Seiko, Mimaki sub-brand), brand China (Flora, Wit-Color,
-> Hanglory, Skycolor, Human, Xenons, JHF, DGI, Dilli, **Grando, Allwin, Rhinotec, Ghongzheng,
-> Hanglory, Docan, Lancelot, Rainbow, Colorpy, Wer, Xuli, Futureng, Flora, Sticker, WER,
-> Chitraprint, Megaprint, dan puluhan lainnya**), serta brand Eropa/Amerika
-> (HP, Epson, Canon, Durst, EFI, swissQprint) terus berubah posisi dan mengeluarkan model baru.
+> **TIDAK ADA daftar kompetitor statis.** Semua brand harus ditemukan melalui web search secara real-time.
 >
-> **KRITIS: Brand China SERING kali lebih kompetitif di harga dan sangat populer di pasar Indonesia.
-> WAJIB cari dan sertakan minimal 2-3 brand China yang relevan di setiap analisis kompetitor.**
+> **Prinsip: Jangan pernah asumsikan brand apa yang ada. CARI semua brand yang relevan.**
 >
 > **Lakukan langkah berikut di setiap sesi riset:**
 >
 > **Langkah 1 — Tentukan Scope Kompetitor**
 > Sebelum mencari, tentukan dulu filter berdasarkan konteks produk yang diminta:
 > - Teknologi tinta: eco-solvent / UV / latex / dye-sub / aqueous?
-> - Format: roll-to-roll / flatbed / hybrid?
-> - Segmen: signage, tekstil, foto, CAD, packaging, décor?
-> - Tier harga: entry (<Rp 50 juta) / mid (Rp 50–200 juta) / high-end (>Rp 200 juta)?
+> - Format: roll-to-roll / flatbed / hybrid / portable?
+> - Segmen: signage, tekstil, foto, CAD, packaging, décor, photobooth?
+> - Tier harga: entry / mid / high-end?
 > - **Apakah produk/kompetitor sudah masuk pasar Indonesia atau hanya tersedia global?**
 >
-> **Langkah 2 — Cari Kompetitor Aktual di Pasar Indonesia**
-> Gunakan web search dengan query yang menargetkan konteks Indonesia:
-> - `"large format printer distributor Indonesia [tahun saat ini]"`
-> - `"printer [segmen] terbaik Indonesia [tahun]"`
-> - `"[nama brand] authorized distributor Indonesia"`
-> - `"large format printer brands Japan China [segmen] Indonesia"`
-> - `"printer [teknologi] harga Indonesia [tahun]"`
-> - **`"[brand China] printer Indonesia harga"` (WAJIB untuk setiap riset)**
-> - **`"printer China murah Indonesia [segmen]"`**
-> - **`"Grando / Allwin / Rhinotec / Ghongzheng printer Indonesia"`**
+> **Langkah 2 — Multi-Query Web Search untuk Temukan SEMUA Kompetitor**
 >
-> **Prioritaskan kompetitor yang:**
-> - Sudah memiliki distributor resmi atau jaringan reseller di Indonesia
-> - Aktif dipasarkan di pameran Indo Print, Indocomtech, atau platform e-commerce Indonesia (Tokopedia, Shopee, Lazada)
-> - Dibahas di komunitas print Indonesia (grup WhatsApp, forum, YouTube lokal)
+> **WAJIB menjalankan minimal 6-8 query berbeda untuk menemukan brand-brand yang tidak terduga:**
 >
-> **WAJIB SERTAKAN brand China yang tersedia di Indonesia.** Mereka sering mendominasi segmen menengah ke bawah dengan harga sangat kompetitif:
+> | No | Query Pattern | Tujuan |
+> |----|---------------|--------|
+> | 1 | `"printer [segmen] terbaik Indonesia [tahun]"` | Brand populer secara umum |
+> | 2 | `"printer [segmen] harga Indonesia Tokopedia Shopee"` | Brand yang dijual di e-commerce |
+> | 3 | `"printer [segmen] murah Indonesia"` | Brand China/budget |
+> | 4 | `"printer [teknologi] distributor Indonesia"` | Distributor & brand lokal |
+> | 5 | `"brand printer China [segmen] Indonesia"` | Eksplisit cari brand China |
+> | 6 | `"printer [segmen] review Indonesia YouTube"` | Brand yang direview komunitas |
+> | 7 | `"printer [segmen] comparison Indonesia"` | Perbandingan brand |
+> | 8 | `"[nama produk yang diriset] alternative Indonesia"` | Alternatif spesifik |
 >
-> | Kategori | Brand China yang WAJIB dicari |
-> |----------|------------------------------|
-> | **Eco-Solvent/Solvent** | Flora, Allwin, Rhinotec, Ghongzheng, Hanglory, Skycolor, Human, JHF, DGI, Xenons, Wer, Xuli |
-> | **UV Flatbed** | Grando, Docan, Lancelot, Rainbow, Colorpy, WER, Chitraprint |
-> | **Dye-Sublimation** | Flora, Allwin, Rhinotec, Futureng, Sticker |
-> | **LED UV** | Allwin, Rhinotec, Grando, Megaprint |
-> | **Textile** | Flora, Allwin, Rainbow, Wer |
+> **PENTING: Setiap query harus menghasilkan brand-brand baru. Jika query menghasilkan brand yang sama, sesuaikan query-nya.**
 >
-> **Catatan: Tidak semua brand tersedia di setiap segmen. Cari yang relevan dengan produk yang diriset.**
+> **Langkah 3 — Eksplorasi Brand China & Brand Lokal**
 >
-> **Langkah 3 — Verifikasi Data Kompetitor untuk Konteks Indonesia**
-> Untuk setiap kompetitor yang ditemukan, cari:
-> - Model terbaru yang tersedia dan dipasarkan aktif di Indonesia
-> - **Harga dalam Rupiah** atau estimasi konversi yang realistis (termasuk bea masuk & margin distributor)
-> - Nama distributor resmi di Indonesia jika ada
-> - Ketersediaan spare part dan tinta di pasar lokal
-> - Kualitas after-sales di Indonesia (bukan klaim global)
-> - Ulasan atau feedback dari komunitas print Indonesia
+> **Karena brand China dan lokal SERING kali lebih kompetitif di harga, lakukan pencarian eksplisit:**
 >
-> **Langkah 4 — Susun Competitive Matrix**
-> Setelah data terkumpul, isi matrix berikut dengan kompetitor aktual hasil riset:
+> - Cari di Alibaba, Made-in-China untuk brand yang mungkin masuk Indonesia
+> - Cari di marketplace Indonesia (Tokopedia, Shopee, Lazada) dengan filter "printer [segmen]"
+> - Cari di YouTube Indonesia untuk review printer [segmen] — brand yang direview biasanya yang beredar
+> - Cari di forum/grup komunitas print Indonesia untuk rekomendasi brand
+>
+> **Catatan: Tidak perlu menyebut brand tertentu secara spesifik. Cukup pastikan web search menemukan brand-brand yang relevan.**
+>
+> **Langkah 4 — Verifikasi Setiap Kompetitor**
+> Untuk SETIAP kompetitor yang ditemukan (bukan hanya brand besar), verifikasi:
+> - Apakah tersedia di Indonesia? (cek marketplace, distributor, komunitas)
+> - Harga estimasi dalam Rupiah
+> - Distributor/reseller di Indonesia
+> - Feedback dari komunitas lokal
+>
+> **Langkah 5 — Susun Competitive Matrix**
+> Setelah data terkumpul, isi matrix berikut dengan kompetitor aktual hasil riset (campurkan brand Jepang, Eropa, America, China, dan lokal yang ditemukan):
 
 ```
 ### Competitive Matrix: [Kategori / Segmen] — Pasar Indonesia, diperbarui [tanggal]
