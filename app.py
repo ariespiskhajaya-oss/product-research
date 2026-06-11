@@ -40,24 +40,32 @@ st.set_page_config(
 )
 
 
-def init_clients():
-    # Try Streamlit secrets first (for cloud deployment)
+def get_secret(key: str) -> str | None:
+    """Get secret from Streamlit secrets or environment variable"""
+    # Method 1: Streamlit secrets (cloud)
     try:
-        openai_key = st.secrets.get("OPENAI_API_KEY", None)
-        tavily_key = st.secrets.get("TAVILY_API_KEY", None)
-    except:
-        openai_key = None
-        tavily_key = None
+        if hasattr(st, 'secrets') and key in st.secrets:
+            return st.secrets[key]
+    except Exception:
+        pass
 
-    # Fallback to environment variables (for local development)
-    if not openai_key:
-        openai_key = os.getenv("OPENAI_API_KEY")
-    if not tavily_key:
-        tavily_key = os.getenv("TAVILY_API_KEY")
+    # Method 2: Environment variable
+    return os.getenv(key)
+
+
+def init_clients():
+    openai_key = get_secret("OPENAI_API_KEY")
+    tavily_key = get_secret("TAVILY_API_KEY")
 
     if not openai_key or not tavily_key:
-        st.error("API keys belum dikonfigurasi. Silakan set di Streamlit Cloud Secrets atau file .env")
+        st.error("⚠️ API keys belum dikonfigurasi!")
+        st.info("Buka **Manage app** → **Secrets** → tambahkan:")
+        st.code('''
+OPENAI_API_KEY = "sk-xxx"
+TAVILY_API_KEY = "tvly-xxx"
+        ''')
         st.stop()
+
     return OpenAI(api_key=openai_key), TavilyClient(api_key=tavily_key)
 
 
