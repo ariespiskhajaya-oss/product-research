@@ -173,8 +173,13 @@ Jalankan semua modul secara urut ketika pengguna menyebut produk atau meminta ri
 >
 > **Jangan gunakan daftar kompetitor yang sudah ditentukan sebelumnya.** Pasar LFP sangat dinamis:
 > brand Jepang (Roland, Mimaki, Mutoh, Seiko, Mimaki sub-brand), brand China (Flora, Wit-Color,
-> Hanglory, Skycolor, Human, Xenons, JHF, DGI, Dilli, dan puluhan lainnya), serta brand Eropa/Amerika
+> Hanglory, Skycolor, Human, Xenons, JHF, DGI, Dilli, **Grando, Allwin, Rhinotec, Ghongzheng,
+> Hanglory, Docan, Lancelot, Rainbow, Colorpy, Wer, Xuli, Futureng, Flora, Sticker, WER,
+> Chitraprint, Megaprint, dan puluhan lainnya**), serta brand Eropa/Amerika
 > (HP, Epson, Canon, Durst, EFI, swissQprint) terus berubah posisi dan mengeluarkan model baru.
+>
+> **KRITIS: Brand China SERING kali lebih kompetitif di harga dan sangat populer di pasar Indonesia.
+> WAJIB cari dan sertakan minimal 2-3 brand China yang relevan di setiap analisis kompetitor.**
 >
 > **Lakukan langkah berikut di setiap sesi riset:**
 >
@@ -193,13 +198,26 @@ Jalankan semua modul secara urut ketika pengguna menyebut produk atau meminta ri
 > - `"[nama brand] authorized distributor Indonesia"`
 > - `"large format printer brands Japan China [segmen] Indonesia"`
 > - `"printer [teknologi] harga Indonesia [tahun]"`
+> - **`"[brand China] printer Indonesia harga"` (WAJIB untuk setiap riset)**
+> - **`"printer China murah Indonesia [segmen]"`**
+> - **`"Grando / Allwin / Rhinotec / Ghongzheng printer Indonesia"`**
 >
 > **Prioritaskan kompetitor yang:**
 > - Sudah memiliki distributor resmi atau jaringan reseller di Indonesia
 > - Aktif dipasarkan di pameran Indo Print, Indocomtech, atau platform e-commerce Indonesia (Tokopedia, Shopee, Lazada)
 > - Dibahas di komunitas print Indonesia (grup WhatsApp, forum, YouTube lokal)
 >
-> Sertakan brand Jepang (Mimaki, Roland, Mutoh, dll.) dan brand China (Flora, Wit-Color, Hanglory, Skycolor, Human, JHF, DGI, Xenons, dll.) yang relevan dan tersedia di Indonesia — mereka sering mendominasi segmen menengah ke bawah di pasar lokal.
+> **WAJIB SERTAKAN brand China yang tersedia di Indonesia.** Mereka sering mendominasi segmen menengah ke bawah dengan harga sangat kompetitif:
+>
+> | Kategori | Brand China yang WAJIB dicari |
+> |----------|------------------------------|
+> | **Eco-Solvent/Solvent** | Flora, Allwin, Rhinotec, Ghongzheng, Hanglory, Skycolor, Human, JHF, DGI, Xenons, Wer, Xuli |
+> | **UV Flatbed** | Grando, Docan, Lancelot, Rainbow, Colorpy, WER, Chitraprint |
+> | **Dye-Sublimation** | Flora, Allwin, Rhinotec, Futureng, Sticker |
+> | **LED UV** | Allwin, Rhinotec, Grando, Megaprint |
+> | **Textile** | Flora, Allwin, Rainbow, Wer |
+>
+> **Catatan: Tidak semua brand tersedia di setiap segmen. Cari yang relevan dengan produk yang diriset.**
 >
 > **Langkah 3 — Verifikasi Data Kompetitor untuk Konteks Indonesia**
 > Untuk setiap kompetitor yang ditemukan, cari:
