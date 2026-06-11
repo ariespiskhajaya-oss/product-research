@@ -12,9 +12,13 @@ import time
 import streamlit as st
 from openai import OpenAI
 from tavily import TavilyClient
-from dotenv import load_dotenv
 
+# Load .env for local development
+from dotenv import load_dotenv
 load_dotenv()
+
+# For Streamlit Cloud: API keys will be set in secrets
+# For local: loaded from .env file above
 
 sys.path.insert(0, str(Path(__file__).parent))
 from agents.search_agent import SearchAgent
@@ -37,10 +41,22 @@ st.set_page_config(
 
 
 def init_clients():
-    openai_key = os.getenv("OPENAI_API_KEY")
-    tavily_key = os.getenv("TAVILY_API_KEY")
+    # Try Streamlit secrets first (for cloud deployment)
+    try:
+        openai_key = st.secrets.get("OPENAI_API_KEY", None)
+        tavily_key = st.secrets.get("TAVILY_API_KEY", None)
+    except:
+        openai_key = None
+        tavily_key = None
+
+    # Fallback to environment variables (for local development)
+    if not openai_key:
+        openai_key = os.getenv("OPENAI_API_KEY")
+    if not tavily_key:
+        tavily_key = os.getenv("TAVILY_API_KEY")
+
     if not openai_key or not tavily_key:
-        st.error("API keys belum dikonfigurasi. Pastikan OPENAI_API_KEY dan TAVILY_API_KEY ada di .env")
+        st.error("API keys belum dikonfigurasi. Silakan set di Streamlit Cloud Secrets atau file .env")
         st.stop()
     return OpenAI(api_key=openai_key), TavilyClient(api_key=tavily_key)
 
